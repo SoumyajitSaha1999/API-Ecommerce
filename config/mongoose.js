@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // connecting mongoose to its default server and ecommerceDB
-mongoose.connect('mongodb+srv://ssoumyajit245:dTKpC3sYvV2eVkIy@cluster0.rsfkjyj.mongodb.net/ecommerce_API?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://ssoumyajit245:74Vbxy5EHt8dXwAa@cluster0.iclibnu.mongodb.net/EcommerceAPI?retryWrites=true&w=majority', {
     useNewUrlParser: true
 });
 
@@ -15,4 +15,3 @@ db.once('open', function(){
 
 module.exports = db;
 
-// "mongodb+srv://bireswarghosh770:PuDhHGRHMNqu1Elc@cluster0.zuuqekg.mongodb.net/burger_app_backend?retryWrites=true&w=majority"
